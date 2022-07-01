@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movielist </title>
+</head>
+<body>
+    <div class="container">
+        <h2> Movies</h2>
+      
+        <button type="button" id="new-movie" class="btn btn-sm btn-primary">Add New Movie</button>
+      
+        
+        <div id="new-movie-form">
+          <div id="status" class="error"> </div>
+          
+          <form name="movieform" class="movie-form">
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" class="form-control" id="title">
+          </div>
+          <div class="form-group">
+            <label for="img">Image:</label>
+            <input type="text" class="form-control" id="img">
+          </div>
+          
+         
+    <button type="button" id="save-new-movie" class="btn btn-primary" Save></button>
+      
+            <input class="btn btn-sm btn-primary" type="submit" value="Save" id="save-new-movie" onClick=addMovie(movieform)> </form>
+        </div>
+        <div id="table"> </div>
+      </div>
+      <div class="container">
+        <div class="card"style="width:18rem;">
+            <img src="image/images.jpg">
+            <div class="card-body">
+                <h1 class="card-title">Bajirao mastani</h1>
+                <p class="card-text">Bajirao Mastani is a 2015 Indian Hindi-language epic historical romance film directed by Sanjay Leela Bhansali, who also composed its soundtrack. Jointly produced by Bhansali and Eros International's Kishore Lulla, the film stars Ranveer Singh, Deepika Padukone and Priyanka Chopra. The supporting cast includes Tanvi Azmi, Vaibhav Tatwawaadi and Milind Soman. Based on the Marathi novel Rau by Nagnath S. Inamdar, Bajirao Mastani narrates the story of the Maratha Peshwa Bajirao I (1700–1740 AD) and his second wife, Mastani.</p>
+                <button type="button" class="btn btn-danger">Watch online</button>
+            </div>
+            <div class="container">
+                <div class="card"style="width:18rem;">
+                    <img src="image/images2.jpg">
+                    <div class="card-body">
+                        <h2 class="card-title">Liger</h2>
+                        <p class="card-text">Liger is an upcoming Indian sports action film written, directed and produced by Puri Jagannadh.[1] Shot simultaneously in Telugu and Hindi, the film is co-produced by Karan Johar and Charmme Kaur.[2][3] Vijay Deverakonda stars as the titular MMA fighter alongside Ananya Panday, Ronit Roy and Ramya Krishna in pivotal roles.[4][5][6] American boxer Mike Tyson plays an extended cameo, thus making his acting debut in Indian cinema.[7]</p>
+                        <button type="button" class="btn btn-danger">Watch online</button>
+                    </div>
+                    <div class="container">
+                        <div class="card"style="width:18rem;">
+                            <img src="image/images3.jpg">
+                    <div class="card-body">
+                       <h3 class="card-title">Malang</h3>
+                        <p class="card-text">Malang (transl. Vagrant/Wanderer) is a 2020 Indian Hindi-language action thriller film directed by Mohit Suri and produced by T-Series in collaboration with Luv Films and Northern Lights Entertainment with distribution by Yash Raj Films.[1] It stars Aditya Roy Kapur and Disha Patani with Anil Kapoor and Kunal Khemu as the antagonists.[5]</p>
+            <button type="button" class="btn btn-danger">Watch online</button>
+                    </div>
+                   
+                        <div class="container">
+                <div class="card"style="width:18rem;">
+                    <img src="image/image4.jpeg">
+                    <div class="card-body">
+                        <h4 class="card-title">Kurup</h4>
+                        <p class="card-text">Kurup is a 2021 Indian Malayalam-language crime thriller film[3][4] written by K. S. Aravind, Jithin K. Jose and Daniel Sayooj Nair based on the life of wanted criminal Sukumara Kurup and directed by Srinath Rajendran; starring Dulquer Salmaan in the title role along with Indrajith Sukumaran, Shine Tom Chacko, Sobhita Dhulipala, Sunny Wayne, Bharath Srinivasan, Shivajith, Surabhi Lakshmi ,Vijayaraghavan and Tovino Thomas in the supporting roles.The film score and songs are composed by Sushin Shyam.[4][5]</p>
+                    <button type="button" class="btn btn-danger">Watch online</button>
+                    </div>
+                     <div class="container">
+    <div class="card"style="width:18rem;">
+        <img src="image/image5.jpeg">
+        <div class="card-body">
+            <h5 class="card-title">Gold</h5>
+            <p class="card-text">Gold: The Dream That United Our Nation is a 2018 Indian period-sports drama film written and directed by Reema Kagti and produced by Farhan Akhtar and Ritesh Sidhwani. It is based on the journey of India's first national hockey team to the 1948 Summer Olympics and stars Akshay Kumar as Tapan Das, the man who won India its first gold medal in the 1948 Summer Olympics. Mouni Roy, in her Bollywood film debut, Amit Sadh, Vineet Kumar Singh, Kunal Kapoor, Sunny Kaushal and Nikita Dutta feature in supporting roles.</p>
+        <button type="button" class="btn btn-danger">Watch online</button>
+        </div>
+        
+   </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
